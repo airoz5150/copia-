@@ -1,3 +1,15 @@
+buildscript {
+    ext {
+        androidx_ui = "1.4.0"
+        compose = "1.4.0"
+        nav_version = "2.3.2"
+        retrofit = "2.9.0"
+        hilt = "2.45"
+        hilt_lifecycle_viewmodel = "1.0.0"
+        hilt_navigation = "1.0.0"
+    }
+}
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id 'com.android.application' version '7.4.0' apply false
